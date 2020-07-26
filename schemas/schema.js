@@ -10,7 +10,7 @@ import customSlug from './customSlug'
 import article from './article'
 import author from './author'
 import category from './category'
-import project from './project'
+// import project from './project'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -24,7 +24,7 @@ export default createSchema({
 		article,
 		author,
 		category,
-		project,
+		// project,
 		// When added to this list, object types can be used as
 		// { type: 'typename' } in other document schemas
 		blockContent,
